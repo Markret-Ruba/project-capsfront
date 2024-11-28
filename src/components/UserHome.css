@@ -1,0 +1,122 @@
+/* Main container styles */
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .form-left, .form-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input fields styling */
+  .input-field {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .input-field:focus {
+    border-color: #4A90E2;
+  }
+  
+  /* Button styles */
+  .btn-submit {
+    padding: 12px 20px;
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .btn-submit:disabled {
+    background-color: #A4B0BE;
+  }
+  
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Image preview styles */
+  .image-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .image-preview-item {
+    position: relative;
+  }
+  
+  .image-preview-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+  }
+  
+  .remove-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .remove-btn:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  
+  /* Checkbox and radio styling */
+  .checkbox-label {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
